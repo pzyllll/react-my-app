@@ -84,6 +84,7 @@ function Home() {
         backgroundImage: `url(${animeBackground})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
         '&::before': {
           content: '""',
           position: 'absolute',
