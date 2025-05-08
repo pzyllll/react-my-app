@@ -1,4 +1,3 @@
-// src/ProfilePage.js
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
@@ -96,7 +95,6 @@ function ProfilePage() {
 
   const handleSave = (event) => {
     event.preventDefault();
-    // Here you would normally send the updated user info to your backend.
     alert('保存成功！');
     toggleEdit();
   };

@@ -10,7 +10,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
 
-// 导入背景图片
+
 import loginBg from './assets/loging.jpg';
 
 function Copyright() {
@@ -47,7 +47,7 @@ const Background = styled(Box)({
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  backgroundAttachment: 'fixed', // 添加此行以使背景固定
+  backgroundAttachment: 'fixed', 
 });
 
 // 表单卡片样式

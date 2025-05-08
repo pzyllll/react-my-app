@@ -25,9 +25,8 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import { styled } from '@mui/material/styles';
 
 // 背景图路径
-import backgroundImage from './assets/community-bg.jpg'; // 替换为你的实际背景图路径
+import backgroundImage from './assets/community-bg.jpg'; 
 
-// 示例社区动态数据
 let postId = 6; // 初始化帖子ID计数器
 const initialCommunityPosts = [
   {
@@ -101,7 +100,6 @@ const initialCommunityPosts = [
   },
 ];
 
-// 自定义带背景的容器
 const PageContainer = styled(Box)({
   minHeight: '100vh',
   backgroundImage: `url(${backgroundImage})`,

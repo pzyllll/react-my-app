@@ -27,7 +27,6 @@ function Copyright() {
   );
 }
 
-// 自定义主题颜色
 const theme = createTheme({
   palette: {
     primary: {

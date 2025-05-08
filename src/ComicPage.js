@@ -12,7 +12,7 @@ import paiqiushaonian from './assets/paiqiushaonian.webp'
 import daojianshenyv from './assets/daojianshenyv.jpg'
 import huolishaonianwang from './assets/huolishaonianwang.jpg'
 
-// 示例动画数据，实际应用中可以从API获取
+
 const animations = [
   {
     title: "火力少年王!!",

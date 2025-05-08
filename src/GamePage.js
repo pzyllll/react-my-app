@@ -25,7 +25,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import { styled } from '@mui/material/styles';
 
-// 示例数据
+
 const gameDetails = {
   title: "星际征途",
   description: "在这款史诗级科幻MMORPG中，探索无垠宇宙，建造属于你的太空帝国。",
